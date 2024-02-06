@@ -23,14 +23,14 @@ const Activity = () => {
                     </button>
                     {/* Display the selected activity, if any */}
                     {selectedActivity && (
-                        <div className='mt-4 bg-[#323232] rounded-xl p-4'>
+                        <div className='mt-4 bg-love rounded-xl p-4'>
                             <h2 className='text-3xl'>{selectedActivity.name}</h2>
                         </div>
                     )}
                 </div>
                 <div className='text-left'>
                     {activityList.map((activity) => (
-                        <div key={activity.id} className='bg-[#323232] p-4 rounded-2xl'>
+                        <div key={activity.id} className='bg-love p-4 rounded-2xl'>
                             <h2 className='text-3xl'>{activity.name}</h2>
                         </div>
                     ))}

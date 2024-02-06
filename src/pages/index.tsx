@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className='flex gap-4 bg-[#323232] p-6 rounded-2xl'>Will you date me ?<div className='heartbeat -pt-4'>❤️</div></div>
+      <div className='flex gap-4 bg-love p-6 rounded-2xl'>Will you date me ?<div className='heartbeat -pt-4'>❤️</div></div>
       {
         !yes ? <div className="flex gap-4">
           <button
