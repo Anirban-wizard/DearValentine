@@ -17,7 +17,7 @@ const Activity = () => {
                 <div>
                     <button
                         onClick={selectRandomActivity}
-                        className='bg-emerald-300 hover:bg-emerald-400 p-4 rounded-lg mt-12'
+                        className='bg-[#FCA5A5] hover:bg-[#F87171] p-4 rounded-lg mt-12 animate-bounceOnce'
                     >
                         Select a random activity
                     </button>

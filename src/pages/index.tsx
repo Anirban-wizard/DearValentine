@@ -44,7 +44,7 @@ export default function Home() {
             height={240}
           />
           <Link href='/activity' legacyBehavior>
-            <a className='text-3xl bg-emerald-300 hover:bg-emerald-400 p-4 rounded-lg'>Select an activity</a>
+            <a className='text-3xl bg-[#FCA5A5] hover:bg-[#F87171] p-4 rounded-lg animate-bounceOnce'>Select an activity</a>
           </Link>
         </div>
       }
