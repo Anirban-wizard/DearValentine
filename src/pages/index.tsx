@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import Link from 'next/link';
+import Layout from '@/components/Layout';
 
 export default function Home() {
   const [yesButtonScale, setYesButtonScale] = useState(1);
@@ -16,7 +17,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center gap-24 p-24  text-white font-bold text-5xl">
+    <Layout>
       <div className='flex gap-4 bg-[#323232] p-6 rounded-2xl'>Will you date me ?<div className='heartbeat -pt-4'>❤️</div></div>
       {
         !yes ? <div className="flex gap-4">
@@ -47,6 +48,6 @@ export default function Home() {
           </Link>
         </div>
       }
-    </main >
+    </Layout>
   );
 }
