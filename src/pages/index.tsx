@@ -38,7 +38,7 @@ export default function Home() {
           I LOVE YOU !
           <Image
             className='rounded-3xl mb-12'
-            src="/love.gif"
+            src="/cony_and_brown_love.gif"
             alt="Love GIF"
             width={400}
             height={240}
