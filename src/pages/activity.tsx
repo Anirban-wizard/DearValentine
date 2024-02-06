@@ -30,7 +30,7 @@ const Activity = () => {
                 </div>
                 <div className='text-left'>
                     {activityList.map((activity) => (
-                        <div key={activity.id} className='bg-[#323232] p-6 rounded-2xl'>
+                        <div key={activity.id} className='bg-[#323232] p-4 rounded-2xl'>
                             <h2 className='text-3xl'>{activity.name}</h2>
                         </div>
                     ))}
